@@ -37,7 +37,9 @@ implementation(files("libs/TimePicker.aar"))
 |np_showSec          |Show seconds picker |true
 |np_showTime         |Show time | true
 
-Values change listener:
+Values change listener.
+
+Kotlin
 
 ```
 picker.setOnChangeListener { picker, hour, min, sec ->
@@ -46,6 +48,18 @@ picker.setOnChangeListener { picker, hour, min, sec ->
     mSec = sec
 }
 ```
+
+Java
+
+```
+picker.setOnChangeListener((timePickerCustom, integer, integer2, integer3) -> {
+    mHour = integer 
+    mMin = integer2
+    mSec = integer3 
+    return null;
+});
+```
+
 
 Methods:
 ```
