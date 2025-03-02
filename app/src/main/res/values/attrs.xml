@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="TimePickerCustom">
+
+        <attr name="tp_dividerColor" format="color" />
+        <attr name="tp_dividerHeight" format="dimension" />
+        <attr name="tp_dividerOffset" format="dimension" />
+
+        <attr name="tp_fadingExtent" format="integer" />
+        <attr name="tp_fontFamily" format="reference" />
+
+        <attr name="tp_hintTextHour" format="string" />
+        <attr name="tp_hintTextMin" format="string" />
+        <attr name="tp_hintTextSec" format="string" />
+        <attr name="tp_hintTextSize" format="dimension" />
+        <attr name="tp_hintTextColor" format="color" />
+
+        <attr name="tp_intervalLongPress" format="integer" />
+        <attr name="tp_maxHours" format="integer" />
+
+        <attr name="tp_textColor" format="color" />
+        <attr name="tp_textColorSel" format="color" />
+        <attr name="tp_textSize" format="dimension" />
+        <attr name="tp_textSizeSel" format="dimension" />
+
+        <attr name="tp_showRows5" format="boolean" />
+        <attr name="tp_showSec" format="boolean" />
+        <attr name="tp_showTime" format="boolean" />
+
+    </declare-styleable>
+<!--19-->
+
+</resources>

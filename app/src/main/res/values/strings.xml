@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Time Picker</string>
+
+    <string name="_0">0</string>
+    <string name="h">H</string>
+    <string name="m">M</string>
+    <string name="s">S</string>
+    <string name="get_time">Get time</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">Apply</string>
+    <string name="_default">Default</string>
+</resources>
